@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+
+<html lang="Zh_CN">
+<head>
+
+  <meta charset="utf-8">
+
+  <title>信息无障碍概述</title>
+  <meta name="description" content="信息无障碍概述">
+  <meta name="author" content="张昆">
+  <meta name="viewport" content=
+  "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/theme/moon.css" id="theme">
+  <!-- Code syntax highlighting -->
+  <link rel="stylesheet" href="lib/css/zenburn.css">
+  <!-- Printing and PDF exports -->
+
+  <script>
+                    var link = document.createElement( 'link' );
+                        link.rel = 'stylesheet';
+                        link.type = 'text/css';
+                        link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+                        document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script><!--[if lt IE 9]>
+                <script src="lib/js/html5shiv.js"></script>
+                <![endif]-->
+</head>
+
+<body>
+  <div class="reveal">
+    <!-- Any section element inside of this container is displayed as a slide -->
+
+    <div class="slides">
+      <section>
+        <h1>信息无障碍概述</h1>
+        <p>张昆</p>
+      </section>
+
+      <section id="fragments">
+        <h2>信息无障碍 -- Accessibility</h2><img src=
+        "pic/accessibility.gif" alt="logo 1">
+
+        <p>
+        任何人在任何情况下都能平等的、便利、无障碍地获取信息、利用信息。</p>
+
+        <p class="fragment">
+        信息的无障碍 --
+        不是一种行为或状态，而是指，进入、接近、利用信息的一种自由选择和权利。</p>
+      </section>
+
+      <section>
+        <section>
+          <h2>为什么我们应该考虑信息无障碍</h2>
+
+          <p>
+          在中国,有超过8000万的残障人士；</p><img src=
+          "pic/accessibility.png" alt="logo 2">
+        </section>
+
+        <section>
+          <p>弱势群体，以及受制于环境的用户：</p>
+
+          <ul>
+            <li>2.1亿老龄化人口；</li>
+
+            <li>5%-10%的读写障碍人群；</li>
+
+            <li>第二语言人群；</li>
+
+            <li>低教育程度。</li>
+          </ul>
+        </section>
+
+        <section>
+          <p>
+          信息鸿沟，以及快速发展的互联网硬件产品：</p>
+
+          <ul>
+            <li>9亿活跃移动设备；</li>
+
+            <li>网络不通达；</li>
+
+            <li>对互联网不熟悉。</li>
+          </ul>
+        </section>
+      </section>
+
+      <section>
+        <h2 >
+        从信息无障碍中获益</h2>
+
+        <ul>
+          <li>商业价值；</li>
+
+          <li>品牌需求；</li>
+
+          <li>公益性；</li>
+
+          <li>可用性、易用性、交互性；</li>
+
+          <li>国际法规、法律的强制性；</li>
+        </ul>
+      </section>
+
+      <section>
+        <section>
+          <h2>业界标准</h2>
+
+          <p><a href="http://www.w3.org/TR/WCAG20/">WCAG （Web
+          Content Accessibility Guidelines）2.0</a></p>
+
+          <p>中文授权翻译:<a href=
+          "https://www.w3.org/Translations/WCAG20-zh/">Web内容无障碍指南(WCAG)
+          2.0</a></p>
+
+          <ul>
+            <li>W3C推荐标准，同时也是ISO标准;</li>
+
+            <li>
+            广泛运用在Web内容、应用与及网站运营;</li>
+
+            <li>前瞻性的设计思路;</li>
+
+            <li>可运用在软件、移动设备等；</li>
+          </ul>
+        </section>
+
+        <section>
+          <p><a href="http://www.w3.org/TR/ATAG20/">ATAG -
+          Authoring Tool Accessibility Guidelines 2.0</a></p>
+
+          <p>
+          创作工具无障碍指南，是针对于开发者使用的创作工具</p>
+
+          <p>主要有两个部分:</p>
+
+          <ul>
+            <li>
+            确保创作工具对于残障人士是无障碍;</li>
+
+            <li>
+            让创作工具可以生产出无障碍的内容。</li>
+          </ul>
+        </section>
+
+        <section>
+          <p><a href="http://www.w3.org/TR/wai-aria/">Accessible
+          Rich Internet Applications (WAI-ARIA)1.0</a></p>
+
+          <p>
+          可及性富互联网应用1.0，让动态Web内容更无障碍</p>
+
+          <ul>
+            <li>
+            定义了可以描述widget和网页结构的角色</li>
+
+            <li>拖拽类的资源、目标的属性界定</li>
+
+            <li>为Web对象和事件提供键盘导航</li>
+          </ul>
+        </section>
+      </section>
+
+      <section>
+        <section>
+          <h2>信息无障碍的四大原则</h2>
+
+          <ol>
+            <li>可感知性</li>
+
+            <li>可操作性</li>
+
+            <li>可理解性</li>
+
+            <li>鲁棒性</li>
+          </ol>
+        </section>
+
+        <section data-transition="slide" data-background="#b5533c"
+        data-background-transition="zoom">
+          <p>
+          可感知：信息和用户界面组件以可感知的方式呈现给用户</p>
+
+          <ul>
+            <li>替代文本 --
+            为非文本内容提供替代文本</li>
+
+            <li>时基媒体 -- 为时基媒体提供替代</li>
+
+            <li>适应性 --
+            创建可用不同方式呈现的内容</li>
+
+            <li>可辨别 --
+            让用户通过视觉或听觉接受信息</li>
+          </ul>
+        </section>
+
+        <section data-transition="slide" data-background="#b5533c"
+        data-background-transition="zoom">
+          <p>
+          可操作：用户界面上的组件和导航是可以操作的</p>
+
+          <ul>
+            <li>键盘可访问 --
+            能通过键盘操作所有功能</li>
+
+            <li>充足的时间 --
+            为用户提供足够的时间</li>
+
+            <li>癫痫 --
+            不要设计会导致癫痫发作的内容</li>
+
+            <li>可导航性 --
+            帮助用户导航、查找内容、确定位置</li>
+          </ul>
+        </section>
+
+        <section data-transition="slide" data-background="#b5533c"
+        data-background-transition="zoom">
+          <p>
+          可理解：信息和用户界面操作必须是可理解的</p>
+
+          <ul>
+            <li>可读 -- 文本内容可读可理解</li>
+
+            <li>可预测 -- 以可预见的方式呈现内容</li>
+
+            <li>辅助输入 --
+            帮助用户避免和纠正错吴</li>
+          </ul>
+        </section>
+
+        <section data-transition="slide" data-background="#b5533c"
+        data-background-transition="zoom">
+          <p>鲁棒：内容可被各种用户代理所理解</p>
+
+          <ul>
+            <li>兼容 -- 兼容各类的用户代理</li>
+          </ul>
+        </section>
+      </section>
+
+      <section>
+        <section>
+          <h2>达成信息无障碍的部分基本技巧</h2>
+
+          <ul>
+            <li>注意提供替代性文本和内容；</li>
+
+            <li>清晰的布局、可以快速定位；</li>
+
+            <li>
+            产品是否考虑一些特定的输入方式；</li>
+
+            <li>焦点的可视化；</li>
+
+            <li>为音视频内容提供字幕；</li>
+
+            <li>前景和背景的对比度；</li>
+          </ul>
+        </section>
+
+        <section>
+          <ul>
+            <li>避免用颜色引导内容；</li>
+
+            <li>为用户提供充足的时间操作；</li>
+
+            <li>小心使用验证码 CAPTCHAs；</li>
+
+            <li>正确使用标签。</li>
+          </ul>
+        </section>
+      </section>
+
+      <section>
+        <h2>快速思考 -- 寻找可替代的方法</h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th>障碍</th>
+
+              <th>替代方法</th>
+
+              <th>方案</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>视障</td>
+
+              <td>听觉访问</td>
+
+              <td>读屏技术</td>
+            </tr>
+
+            <tr>
+              <td>听障</td>
+
+              <td>视觉访问</td>
+
+              <td>字幕、手语</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+	
+	
+	<section>
+		<h2>可用资源</h2>
+	</section>	
+	
+	
+	
+	
+	
+	<section>
+		<h2> Thank You!</h2>
+	</section>	
+
+    </div>
+
+  
+  <script src="lib/js/head.min.js"> </script> 
+  <script src="js/reveal.js"> </script> 
+  <script>
+
+                        // Full list of configuration options available at:
+                        // https://github.com/hakimel/reveal.js#configuration
+                        Reveal.initialize({
+                                controls: true,
+                                progress: true,
+                                history: true,
+                                center: true,
+
+                                transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+                                // Optional reveal.js plugins
+                                dependencies: [
+                                        { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                                        { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                                        { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                                        { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                                        { src: 'plugin/zoom-js/zoom.js', async: true },
+                                        { src: 'plugin/notes/notes.js', async: true }
+                                ]
+                        });
+
+  </script>
+</body>
+</html>
