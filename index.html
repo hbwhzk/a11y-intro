@@ -36,9 +36,10 @@
 	<section>
 	 <section>
         <h1>信息无障碍概述</h1>
-        <p>张昆 @<a href="">SIAA</a></p>
+        <p>张昆 @<a href="http://siaa.org.cn/">SIAA</a></p>
 		<p><a href="mailto:hbwhzk@hotmail.com">hbwhzk@hotmail.com</a><p>
 		<p>本文档链接：<a href=“https://hbwhzk.github.io/a11y-intro/index.html”>https://hbwhzk.github.io/a11y-intro</a></p>
+		<p>其它设备阅读，请扫描下面的二维码</p>
       </section>
 	  <section>
 	  <img src=
@@ -135,26 +136,29 @@
             <li>可运用在软件、移动设备等；</li>
           </ul>
         </section>
+		
+		<section>
+		<p>WCAG 2.0 支持文档</p>
+		 <ul>
+		 <li><a href=
+          "https://www.w3.org/Translations/WCAG20-zh/">Web内容无障碍指南(WCAG)2.0 -- 中文授权翻译
+          2.0</a></li>
+		  <li><a href="http://www.w3.org/WAI/WCAG20/quickref/">如何符合WCAG 2.0 （How to 
+			Meet WCAG 2.0）</a></li>
+		  <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/">理解WCAG 2.0 （Understanding 
+			WCAG 2.0）</a></li>
+		  <li><a href="http://www.w3.org/TR/WCAG20-TECHS/">WCAG 2.0 技巧 （Techniques 
+			for WCAG 2.0）</a></li>
+			<li><a href=
+          "https://www.w3.org/Translations/WCAG20-zh/">Web内容无障碍指南(WCAG)2.0 -- 中文授权翻译
+          2.0</a></li>
+		</ul>
+		</section>
+
+
 
         <section>
-          <p><a href="http://www.w3.org/TR/ATAG20/">ATAG -
-          Authoring Tool Accessibility Guidelines 2.0</a></p>
-
-          <p>
-          创作工具无障碍指南，是针对于开发者使用的创作工具</p>
-
-          <p>主要有两个部分:</p>
-
-          <ul>
-            <li>
-            确保创作工具对于残障人士是无障碍;</li>
-
-            <li>
-            让创作工具可以生产出无障碍的内容。</li>
-          </ul>
-        </section>
-
-        <section>
+		<h2>业界标准</h2>
           <p><a href="http://www.w3.org/TR/wai-aria/">Accessible
           Rich Internet Applications (WAI-ARIA)1.0</a></p>
 
@@ -170,6 +174,40 @@
             <li>为Web对象和事件提供键盘导航</li>
           </ul>
         </section>
+				<section>
+		
+		<p>WAI-ARIA 1.0 支持文档</p>
+		 <ul>
+        <li><a href="http://www.w3.org/TR/wai-aria-implementation/">用户代理实施向导 User 
+          Agent Implementation Guide</a></li>
+        <li><a href="http://www.w3.org/tr/wai-aria-practices/">WAI-ARIA 创作实践 WAI-ARIA 
+          1.0 authoring practices</a></li>
+        <li><a href="http://www.w3.org/TR/wai-aria-primer/">WAI-ARIA 初级读本 WAI-ARIA 
+          Primer</a></li>
+        <li><a href="http://www.w3.org/TR/wai-aria-roadmap/">WAI-ARIA 发展计划 WAI-ARIA 
+          Roadmap</a></li>
+      </ul>
+		</section>
+		        <section>
+		<h2>业界标准</h2>
+          <p><a href="http://www.w3.org/TR/ATAG20/">ATAG -
+          Authoring Tool Accessibility Guidelines 2.0</a></p>
+
+          <p>
+          创作工具无障碍指南，是针对于开发者使用的创作工具</p>
+
+          <p>主要有两个部分:</p>
+
+          <ul>
+            <li>
+            确保创作工具对于残障人士是无障碍;</li>
+
+            <li>
+            让创作工具可以生产出无障碍的内容。</li>
+          </ul>
+		  <p>支持文档: <a href="http://www.w3.org/TR/IMPLEMENTING-ATAG20/">实施ATAG 2.0</a>;</p>
+        </section>
+		
       </section>
 
       <section>
@@ -206,7 +244,7 @@
           </ul>
         </section>
 
-        <section data-transition="slide" data-background="#b5533c"
+        <section data-transition="slide" 
         data-background-transition="zoom">
           <p>
           可操作：用户界面上的组件和导航是可以操作的</p>
@@ -226,7 +264,7 @@
           </ul>
         </section>
 
-        <section data-transition="slide" data-background="#b5533c"
+        <section data-transition="slide"
         data-background-transition="zoom">
           <p>
           可理解：信息和用户界面操作必须是可理解的</p>
@@ -241,7 +279,7 @@
           </ul>
         </section>
 
-        <section data-transition="slide" data-background="#b5533c"
+        <section data-transition="slide" 
         data-background-transition="zoom">
           <p>鲁棒：内容可被各种用户代理所理解</p>
 
@@ -262,11 +300,8 @@
 
             <li>
             考虑一些特定的输入方式；</li>
-
             <li>焦点的可视化；</li>
-
             <li>为音视频内容提供字幕；</li>
-
             <li>前景和背景的对比度；</li>
           </ul>
         </section>
@@ -274,67 +309,25 @@
         <section>
           <ul>
             <li>避免用颜色引导内容；</li>
-
             <li>为用户提供充足的时间操作；</li>
-
             <li>小心使用验证码 CAPTCHAs；</li>
-
+			<li>注意闪烁内容；</li>
             <li>正确使用标签。</li>
           </ul>
         </section>
       </section>
 	
 	
-	<section>
-		
-		<section>
-		<h2>可用资源 - WCAG 2.0 支持文档</h2>
-		 <ul>
-		 <li><a href=
-          "https://www.w3.org/Translations/WCAG20-zh/">Web内容无障碍指南(WCAG)2.0 -- 中文授权翻译
-          2.0</a></li>
-		  <li><a href="http://www.w3.org/WAI/WCAG20/quickref/">如何符合WCAG 2.0 （How to 
-			Meet WCAG 2.0）</a></li>
-		  <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/">理解WCAG 2.0 （Understanding 
-			WCAG 2.0）</a></li>
-		  <li><a href="http://www.w3.org/TR/WCAG20-TECHS/">WCAG 2.0 技巧 （Techniques 
-			for WCAG 2.0）</a></li>
-			<li><a href=
-          "https://www.w3.org/Translations/WCAG20-zh/">Web内容无障碍指南(WCAG)2.0 -- 中文授权翻译
-          2.0</a></li>
-		</ul>
-		
-		</section>
-		
-		<section>
-		
-		<h2>可用资源 - WAI-ARIA 1.0 支持文档</h2>
-		 <ul>
-        <li><a href="http://www.w3.org/TR/wai-aria-implementation/">用户代理实施向导 User 
-          Agent Implementation Guide</a></li>
-        <li><a href="http://www.w3.org/tr/wai-aria-practices/">WAI-ARIA 创作实践 WAI-ARIA 
-          1.0 authoring practices</a></li>
-        <li><a href="http://www.w3.org/TR/wai-aria-primer/">WAI-ARIA 初级读本 WAI-ARIA 
-          Primer</a></li>
-        <li><a href="http://www.w3.org/TR/wai-aria-roadmap/">WAI-ARIA 发展计划 WAI-ARIA 
-          Roadmap</a></li>
-      </ul>
-		</section>
 
-		
-		
-		
-		
-		
-		
-	</section>	
 	
 	
 	
 	
 	
 	<section>
-		<h1> Thank You!</h1>
+		<h2> 谢谢!</h2>
+		
+		
 	</section>	
 
     </div>
